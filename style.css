@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
 }
 
 .navbar {
@@ -16,6 +18,7 @@ body {
 nav {
     display: flex;
     width: 100%;
+    align-items: center;
     padding: 20px 0;
     justify-content: space-between;
 }
@@ -124,6 +127,6 @@ span {
     font-size: 20px;
     margin: 40px;
     font-weight: 300;
-    color: yellowgreen;
+    color: goldenrod;
 }
 
