@@ -9,28 +9,49 @@ body {
 .navbar {
     position: relative;
     height: 10vh;
-    background: #eff4fd;
+    background: #14453D;
     padding: 0 100px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-image {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    align-items: center;
     justify-content: center;
+    border-radius: 50%;
+    color: #000;
+    background-color: #fff;
+}
+
+.email {
+    height: 35px;
+    background-color: #43C59E;
+    border: none;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    color: #fff;
 }
 
 nav {
     display: flex;
-    width: 100%;
+    width: 40%;
     align-items: center;
-    padding: 20px 0;
     justify-content: space-between;
 }
 
 nav a {
     text-decoration: none;
-    color: #000;
+    color: #fff;
     font-weight: bold;
 }
 
 nav a:hover {
-    color: yellowgreen;
+    color: #43C59E;
 }
 
 #homepage h1 {
@@ -48,7 +69,8 @@ span {
     line-height: 22px;
 }
 
-#homepage a {
+#homepage button {
+    
     background: #212121;
     padding: 10px 18px;
     text-decoration: none;
