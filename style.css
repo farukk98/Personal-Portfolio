@@ -55,47 +55,28 @@ nav a:hover {
     color: #43C59E;
 }
 
-#homepage h1 {
-    font-size: 50px;
-    color: #212121;
-    margin-bottom: 20px;
-}
-
-span {
-    color: darkgoldenrod;
-}
-
-#homepage p {
-    color: #555;
-    line-height: 22px;
-}
-
-#homepage button {
-    
-    background: #212121;
-    padding: 10px 18px;
-    text-decoration: none;
-    font-weight: bold;
-    color: #fff;
-    display: inline-block;
-    margin: 30px 0;
-    border-radius: 5px;
-}
-
 #homepage {
-    height: 100vh;
+   width: 100vw;
+   height: 100vh;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   border: 1px solid red;
+}
+
+#homepage img {
+    width: 100px;
+    height: 100px;
     display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: center;
-    padding: 0 100px;
+    align-items: center;
+    justify-content: center; 
 }
 
 #about-me {
     height: 100vh;
     width: 100vw;
     display: flex;
-    align-items: items-center;
+    align-items: center;
     justify-content: center;
 }
 
@@ -121,7 +102,6 @@ span {
 }
 
 #contact-inf {
-    
     height: 100vh;
     display: flex;
     flex-direction: column;
