@@ -2,8 +2,17 @@
 body {
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+    overflow-x: hidden; 
     font-family: 'Poppins', sans-serif;
+}
+.bg-image {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+
+.bg-image img {
+    width: 100%;
 }
 
 .navbar {
@@ -55,21 +64,132 @@ nav a:hover {
     color: #43C59E;
 }
 
+.loc-container {
+    display: flex;
+    gap: 5px;
+}
+
+.down-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #09669c;
+    border: 1px solid black;
+    border-radius: 2rem;
+    width: 250px;
+    height: 40px;
+    white-space: nowrap;
+    gap: 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.down-button:hover{
+    background-color: #fff;
+}
+ 
+.down-image {
+    width: 300px;
+}
+
 #homepage {
-   width: 100vw;
-   height: 100vh;
+    width: 100vw;
+    height: 100vh;
+   display: flex;
    flex-direction: column;
    align-items: center;
    justify-content: center;
-   border: 1px solid red;
+   gap: 10px;
 }
 
-#homepage img {
+#homepage .loc-container p {
+    color: #fff;
+}
+
+#homepage h1 {
+    font-size: 50px;
+    font-weight: 200px;
+    color: #fff;
+    line-height: 30px;
+}
+
+#me {
     width: 100px;
     height: 100px;
     display: flex;
     align-items: center;
     justify-content: center; 
+    border-radius: 50px;
+}
+
+#resume-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid;
+    color: #fff;
+    border-radius: 30px;
+    height: 80px; 
+    width: 500px;
+    padding: 20px;
+    gap: 15px;
+    box-shadow: 3px 3px #555050;
+}
+
+#resume-section p {
+    color: #000;
+    /* padding: -50px; */
+}
+
+#resume-section .logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    gap: 40px;
+    object-fit: scale-down;
+}
+
+
+
+
+p {
+    margin: 0;
+  
+}
+
+#homepage-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: -10px;
+    color: #fff;
+}
+
+#homepage2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#homepage button {
+    width: 200px;
+    background-color: #fff;
+    border: 2px solid #20A4F3;
+    border-radius: 20px;
+    color: #09669c;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    display: flex;
 }
 
 #about-me {
@@ -132,4 +252,3 @@ nav a:hover {
     font-weight: 300;
     color: goldenrod;
 }
-
