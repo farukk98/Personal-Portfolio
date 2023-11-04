@@ -86,15 +86,12 @@ nav a:hover {
 
 .down-button:hover{
     background-color: #fff;
-}
- 
-.down-image {
-    width: 300px;
+    color: #09669c;
 }
 
 #homepage {
-    width: 100vw;
-    height: 100vh;
+   width: 100vw;
+   height: 100vh;
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -135,7 +132,7 @@ nav a:hover {
     width: 500px;
     padding: 20px;
     gap: 15px;
-    box-shadow: 3px 3px #555050;
+    box-shadow: 5px 5px #ada2a2;
 }
 
 #resume-section p {
