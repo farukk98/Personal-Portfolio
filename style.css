@@ -5,6 +5,7 @@ body {
     overflow-x: hidden; 
     font-family: 'Poppins', sans-serif;
 }
+
 .bg-image {
     position: absolute;
     z-index: -1;
@@ -13,6 +14,8 @@ body {
 
 .bg-image img {
     width: 100%;
+    height: 100%;
+    display: flex;
 }
 
 .navbar {
@@ -132,7 +135,7 @@ nav a:hover {
     width: 500px;
     padding: 20px;
     gap: 15px;
-    box-shadow: 5px 5px #ada2a2;
+    box-shadow:  5px 5px 5px rgb(134, 134, 134);
 }
 
 #resume-section p {
@@ -148,9 +151,6 @@ nav a:hover {
     gap: 40px;
     object-fit: scale-down;
 }
-
-
-
 
 p {
     margin: 0;
