@@ -165,7 +165,7 @@ p {
     color: #fff;
 }
 
-#homepage2 {
+#homepage-info {
     display: flex;
     flex-direction: column;
     gap: 10px;
