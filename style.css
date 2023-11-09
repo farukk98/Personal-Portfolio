@@ -1,251 +1,274 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&family=Poppins&display=swap");
+
+
 body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden; 
-    font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
 }
 
 .bg-image {
-    position: absolute;
-    z-index: -1;
-    width: 100%;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
 }
 
 .bg-image img {
-    width: 100%;
-    height: 100%;
-    display: flex;
+  width: 100%;
+  height: 100%;
+  display: flex;
 }
 
 .navbar {
-    position: relative;
-    height: 10vh;
-    background: #14453D;
-    padding: 0 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  position: relative;
+  height: 10vh;
+  background: #14453d;
+  padding: 0 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header-image {
-    display: flex;
-    width: 40px;
-    height: 40px;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    color: #000;
-    background-color: #fff;
+  display: flex;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: #000;
+  background-color: #fff;
 }
 
 .email {
-    height: 35px;
-    background-color: #43C59E;
-    padding: 15px;
-    border: none;
-    border-radius: 18px;
-    display: flex;
-    align-items: center;
-    color: #fff;
+  height: 35px;
+  background-color: #43c59e;
+  padding: 15px;
+  border: none;
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  color: #fff;
 }
 
 nav {
-    display: flex;
-    width: 40%;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  width: 40%;
+  align-items: center;
+  justify-content: space-between;
 }
 
 nav a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
 }
 
 nav a:hover {
-    color: #43C59E;
+  color: #43c59e;
 }
 
 .loc-container {
-    display: flex;
-    gap: 5px;
+  display: flex;
+  gap: 5px;
 }
 
 .down-button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #09669c;
-    border: 1px solid black;
-    border-radius: 2rem;
-    width: 250px;
-    height: 40px;
-    white-space: nowrap;
-    gap: 10px;
-    transition-duration: 0.4s;
-    cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #09669c;
+  border: 1px solid black;
+  border-radius: 2rem;
+  width: 250px;
+  height: 40px;
+  white-space: nowrap;
+  gap: 10px;
+  transition-duration: 0.4s;
+  cursor: pointer;
 }
 
-.down-button:hover{
-    background-color: #fff;
-    color: #09669c;
+.down-button:hover {
+  background-color: #fff;
+  color: #09669c;
 }
 
 #homepage {
-   width: 100vw;
-   height: 100vh;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-   gap: 10px;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 
 #homepage .loc-container p {
-    color: #fff;
+  color: #fff;
 }
 
 #homepage h1 {
-    font-size: 50px;
-    font-weight: 200px;
-    color: #fff;
-    line-height: 30px;
+  font-size: 50px;
+  font-weight: 200px;
+  color: #fff;
+  line-height: 30px;
 }
 
 #me {
-    width: 100px;
-    height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center; 
-    border-radius: 50px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
 }
 
-#resume-section{
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
-    background-color: #fff;
-    border: 1px solid;
-    color: #fff;
-    border-radius: 30px;
-    height: 80px; 
-    width: 500px;
-    padding: 20px;
-    gap: 15px;
-    box-shadow:  5px 5px 5px rgb(134, 134, 134);
+#resume-section {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid;
+  color: #fff;
+  border-radius: 30px;
+  max-height: 120px;
+  width: 500px;
+  padding: 10px;
+  padding-bottom: 10px;
+  gap: 15px;
+  box-shadow: 5px 5px 5px rgb(134, 134, 134);
 }
 
 #resume-section p {
-    color: #000;
-    /* padding: -50px; */
+  color: #000;
 }
 
-#resume-section .logos{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-    gap: 40px;
-    object-fit: scale-down;
+#resume-section .logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  gap: 40px;
+  object-fit: scale-down;
+
 }
 
 p {
-    margin: 0;
-  
+  margin: 0;
 }
 
 #homepage-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: -10px;
-    color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: -10px;
+  color: #fff;
 }
 
 #homepage-info {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
 }
 
 #homepage button {
-    width: 200px;
-    background-color: #fff;
-    border: 2px solid #20A4F3;
-    border-radius: 20px;
-    color: #09669c;
-    padding: 10px 22px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    display: flex;
+  width: 200px;
+  background-color: #fff;
+  border: 2px solid #20a4f3;
+  border-radius: 20px;
+  color: #09669c;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  display: flex;
 }
 
 #about-me {
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  margin-top: 2rem;
+  margin-left: 20px;
+  margin-right: auto;
+  padding: 100px;
 }
 
-.image {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.about-me-left {
+  /* border: 1px solid blue; */
+  width: 35%;
+  height: 30%;
+  padding: 10px;
 }
 
-.text {
-    width: 50%;
-    display: flex;
-    align-items: start;
-    justify-content:center;
-    flex-direction: column;
+#highlighted {
+  color: #09669c;
+  font-weight: 800;
 }
 
-#myimage {
-    height: 350px;
-    width: 350px;
-    border-radius: 50%;
+.about-me-left h2 {
+  text-align: left;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.sign-name {
+  font-family: "Mrs Saint Delafield", cursive;
+  font-size: 50px;
+  gap: 10px;
+}
+
+.about-me-right {
+  float: right;
+  height: fit-content;
+}
+
+.about-me-right p {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.about-me-right h3 {
+  font-size: larger;
+  font-weight: 600;
 }
 
 #contact-inf {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: center;
-    padding: 0 100px;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: center;
+  padding: 0 100px;
 }
 
 .contact-info {
-    padding: 30px;
-    color: #3f9c87;
+  padding: 30px;
+  color: #3f9c87;
 }
 
 .contact-info h1 {
-    font-size: 50px;
-    margin: 40px;
+  font-size: 50px;
+  margin: 40px;
 }
 
 .contact-info h3 {
-    font-size: 30px;
-    margin: 40px;
-    font-weight: 300;
+  font-size: 30px;
+  margin: 40px;
+  font-weight: 300;
 }
 
 .contact-info p {
-    font-size: 20px;
-    margin: 40px;
-    font-weight: 300;
-    color: goldenrod;
+  font-size: 20px;
+  margin: 40px;
+  font-weight: 300;
+  color: goldenrod;
 }
