@@ -9,19 +9,29 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.bg-image {
+/* style.css */
+.bg-custom {
+  background-image: url('images/black-wave.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-height: 650px; 
+}
+
+
+/* .bg-image {
   position: absolute;
   z-index: -1;
   width: 100%;
-}
+} */
 
-.bg-image img {
+/* .bg-image img {
   width: 100%;
   height: 100%;
   display: flex;
-}
+} */
 
-.navbar {
+/* .navbar {
   position: relative;
   height: 10vh;
   background: #14453d;
@@ -29,9 +39,9 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
+} */
 
-.header-image {
+/* .header-image {
   display: flex;
   width: 40px;
   height: 40px;
@@ -40,9 +50,9 @@ body {
   border-radius: 50%;
   color: #000;
   background-color: #fff;
-}
+} */
 
-.email {
+/* .email {
   height: 35px;
   background-color: #43c59e;
   padding: 15px;
@@ -51,31 +61,31 @@ body {
   display: flex;
   align-items: center;
   color: #fff;
-}
+} */
 
-nav {
+/* nav {
   display: flex;
   width: 40%;
   align-items: center;
   justify-content: space-between;
-}
+} */
 
-nav a {
+/* nav a {
   text-decoration: none;
   color: #fff;
   font-weight: bold;
-}
+} */
 
 nav a:hover {
   color: #43c59e;
 }
 
-.loc-container {
+/* .loc-container {
   display: flex;
   gap: 5px;
-}
+} */
 
-.down-button {
+/* .down-button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -88,14 +98,14 @@ nav a:hover {
   gap: 10px;
   transition-duration: 0.4s;
   cursor: pointer;
-}
+} */
 
-.down-button:hover {
+/* .down-button:hover {
   background-color: #fff;
   color: #09669c;
-}
+} */
 
-#homepage {
+/* #homepage {
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -103,32 +113,32 @@ nav a:hover {
   align-items: center;
   justify-content: center;
   gap: 10px;
-}
+} */
 
-#homepage .loc-container p {
+/* #homepage .loc-container p {
   color: #fff;
-}
+} */
 
-#homepage h1 {
+/* #homepage h1 {
   font-size: 50px;
   font-weight: 200px;
   color: #fff;
   line-height: 30px;
-}
+} */
 
-#me {
+/* #me {
   width: 100px;
   height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 50px;
-}
+} */
 
-#resume-section {
+/* #resume-section {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
+  justify-content: center;
   align-items: center;
   background-color: #fff;
   border: 1px solid;
@@ -140,13 +150,13 @@ nav a:hover {
   padding-bottom: 10px;
   gap: 15px;
   box-shadow: 5px 5px 5px rgb(134, 134, 134);
-}
+} */
 
-#resume-section p {
+/* #resume-section p {
   color: #000;
-}
+} */
 
-#resume-section .logos {
+/* #resume-section .logos {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -154,28 +164,28 @@ nav a:hover {
   gap: 40px;
   object-fit: scale-down;
 
-}
+} */
 
 p {
   margin: 0;
 }
 
-#homepage-text {
+/* #homepage-text {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: -10px;
   color: #fff;
-}
+} */
 
-#homepage-info {
+/* #homepage-info {
   display: flex;
   flex-direction: column;
   gap: 10px;
   align-items: center;
   justify-content: center;
   gap: 20px;
-}
+} */
 
 #homepage button {
   width: 200px;
@@ -192,7 +202,7 @@ p {
   display: flex;
 }
 
-#about-me {
+/* #about-me {
   height: 100vh;
   width: 100vw;
   display: flex;
@@ -200,25 +210,24 @@ p {
   margin-left: 20px;
   margin-right: auto;
   padding: 100px;
-}
+} */
 
-.about-me-left {
-  /* border: 1px solid blue; */
+/* .about-me-left {
   width: 35%;
   height: 30%;
   padding: 10px;
-}
+} */
 
-#highlighted {
+/* #highlighted {
   color: #09669c;
   font-weight: 800;
-}
+} */
 
-.about-me-left h2 {
+/* .about-me-left h2 {
   text-align: left;
   font-size: 40px;
   font-weight: 600;
-}
+} */
 
 .sign-name {
   font-family: "Mrs Saint Delafield", cursive;
@@ -226,20 +235,20 @@ p {
   gap: 10px;
 }
 
-.about-me-right {
+/* .about-me-right {
   float: right;
   height: fit-content;
-}
+} */
 
-.about-me-right p {
+/* .about-me-right p {
   margin-top: 5px;
   margin-bottom: 15px;
-}
+} */
 
-.about-me-right h3 {
+/* .about-me-right h3 {
   font-size: larger;
   font-weight: 600;
-}
+} */
 
 #contact-inf {
   height: 100vh;

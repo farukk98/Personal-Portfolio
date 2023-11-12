@@ -7,47 +7,54 @@
     <link rel="stylesheet" href="style.css" />
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
   </head>
-  <body>
-    <div class="navbar">
-      <div class="header-image">
-        <p>FK</p>
+  <!-- bg-custom is external css -->
+  <body class="m-0 p-0 overflow-x-hidden bg-custom"> 
+   
+    <div class="relative border py-4 bg-950 py-0 px-25 flex justify-between items-center bg-white">
+      <div class="flex w-10 h-10 mx-4 items-center justify-center rounded-full bg-white">
+        <!-- <p>FK</p> -->
+        <!-- align later -> for testing purposes -->
       </div>
-      <nav>
-        <a href="#homepage">Homepage</a>
+      <nav class="flex w-2/5 items-center justify-between bg-white">
+        <a href="#homepage" class="no-underline">Homepage</a>
         <a href="#about-me">About me</a>
         <a href="#education">Contact</a>
         <a href="#knowledge">Contact</a>
         <a href="#experience">Experience</a>
       </nav>
-      <button class="email">
+      <div class="bg-green-600 rounded-2xl px-3 py-2 flex items-center text-white hover:bg-green-700 cursor-pointer mx-4">
         <p>kadicfaruk7@gmail.com</p>
-      </button>
+      </div>
     </div>
-    <div class="bg-image">
-      <img src="images/BG.png">
-    </div>
-    <div id="homepage">
-      <img id="me" src="images/image1.JPG" alt="myimage" />
-      <div class="loc-container">
+
+      <!-- Homepage -->
+    <div id="homepage" class="mt-20 w-full h-full flex flex-col items-center justify-center gap-2.5">
+
+      <div class="w-20 h-20 rounded-full bg-red-400">
+         <img src="images/image1.JPG" alt="myimage" width="50%"/> 
+        <p>Avatar</p>
+      </div>
+     
+      <div class="flex gap-2 my-2">
         <img id="loc-image" src="images/location.svg" alt="">
-        <p>Sarajevo</span>
+        <p class="text-white">Sarajevo</span>
         </div>
-        <h1>Faruk Kadic</h1>
-      <div id="homepage-info">
-        <div id="homepage-text">
+        <h1 class="text-[50px] font-[200px] text-white leading-[30px]">Faruk Kadic</h1>
+      <div id="homepage-info" class="flex flex-col items-center content-center gap-2.5 gap-5">
+        <div id="homepage-text" class="flex flex-col items-center gap-[-10px] text-white">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt,
             expedita.
           </p>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
         </div>
-          <div class="down-button">
-            <img id="down-image" src="images/resume.svg" alt="">
-            <p id="down-resume">Check My Resume</p>
+          <div class="flex items-center  hover:bg-white rounded-2xl justify-center text-blue-600 border border-solid border-black p-4 w-[250px] whitespace-no-wrap gap-2.5 duration-100 cursor-pointer">
+            <img src="images/resume.svg" />
+            <p class="mx-3">Check My Resume</p>
           </div>
-        <div id="resume-section">   
-            <p>Experience Roadmap</p>
-          <div class="logos">
+        <div id="resume-section" class="flex mb-20 flex-col items-center rounded-2xl bg-white border border-solid text-white px-6 py-4 w-[500px] gap-[15px] shadow-[5px 5px 5px #868687]">   
+            <p class="text-black mb-4">Experience Roadmap</p>
+          <div class="flex content-center w-full gap-10 object-scale-down">
             <img src="images/ius-logo.png" width="50px" height="45px" alt="">
             <img src="images/best-mostar.jpeg" width="50px" height="45px" alt="">
             <img src="images/flutter_logo.svg" width="50" height="45px" alt="">
@@ -57,14 +64,16 @@
         </div>
       </div>
     </div>
-    <div id="about-me">
-      <div class="about-me-left">
-        <h2>Started to gain experience</h2>
+
+
+    <div id="about-me" class="flex items-center gap-4 justify-center mt-40 p-[100px]">
+      <div class="w-[35%] h-[30%] mr-2 p-2.5">
+        <h2 class="text-left text-4xl font-semibold">Started to gain experience</h2>
       </div>
-      <div class="about-me-right">
-        <h3>Hi, I'm Faruk Kadic. Software engineering student at <p id="highlighted" >International University of Sarajevo.</p></h3>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>Provident, ipsum aut tempore expedita laboriosam nam.</p>
-        <span class="sign-name">Faruk Kadic</span>
+      <div class="float-right h-fit ml-2">
+        <h3 class="text-xl font-se">Hi, I'm Faruk Kadic. Software engineering student at <p id="highlighted" class="text-[#09669c] font-extrabold">International University of Sarajevo.</p></h3>
+        <p class="mt-[5px] mb-[15px]">Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>Provident, ipsum aut tempore expedita laboriosam nam.</p>
+        <span class="sign-name" class="text-[40px] g-2.5">Faruk Kadic</span>
       </div>
     </div>
     <div id="contact-inf">
