@@ -18,44 +18,8 @@ nav a:hover {
   color: #43c59e;
 }
 
-p {
-  margin: 0;
-}
-
 .sign-name {
   font-family: "Mrs Saint Delafield", cursive;
   font-size: 50px;
   gap: 10px;
 }
-
-/* #contact-inf {
-  height: 100vh;
-  display: flex;
-  flex-direction: row;
-  align-items: start;
-  justify-content: center;
-  padding: 0 100px;
-} */
-
-/* .contact-info {
-  padding: 30px;
-  color: #3f9c87;
-} */
-
-/* .contact-info h1 {
-  font-size: 50px;
-  margin: 40px;
-}
-
-.contact-info h3 {
-  font-size: 30px;
-  margin: 40px;
-  font-weight: 300;
-}
-
-.contact-info p {
-  font-size: 20px;
-  margin: 40px;
-  font-weight: 300;
-  color: goldenrod;
-} */
