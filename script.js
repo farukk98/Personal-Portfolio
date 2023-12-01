@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function() {
 
-    var targets = document.getElementById('image-container').getElementsByTagName('img');
+    let targets = document.getElementById('resume-section').getElementsByTagName('img');
   
-    var animation = anime({
+    let animation = anime({
       targets: targets,
       translateY: 5,
       loop: true,
