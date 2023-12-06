@@ -35,5 +35,8 @@ document.addEventListener("DOMContentLoaded", function() {
   document.getElementById('case-study-button').addEventListener('click', function() {
     console.log('View Case Study button clicked!');
   });
+
+
+  
 });
 
