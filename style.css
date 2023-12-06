@@ -6,6 +6,10 @@ body {
   overflow: scroll;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* style.css */
 .bg-custom {
   background-image: url("images/black-wave.png");
